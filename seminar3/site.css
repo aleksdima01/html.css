@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #FFF;
+}
+
+body {
+    background: var(--020-a-18, #020A18);
+    max-width: 1600px;
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+}
+
+a {
+    color: var(--ffffff, #FFF);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+}
+
+.top__content {
+    text-align: center;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+
+.left_top_container {
+    width: 50%;
+    writing-mode: horizontal-tb;
+    text-align: left;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.text_top {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+
+.title {
+    color: var(--ffffff, #FFF);
+    font-family: "Open Sans", sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 71.5px */
+    margin-bottom: 30px;
+}
+
+.text_bottom {
+    color: var(--ffffff, #FFF);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    margin-bottom: 30px;
+}
+
+.buttons__container {
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.play_img {
+    width: 26px;
+    height: 27px;
+    fill: var(--ffffff, #FFF);
+}
+
+.text_button {
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    height: 60px;
+    color: var(--ffffff, #FFF);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    margin-right: 5px;
+}
+
+.rocketman_container {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.logo_container {
+    flex-shrink: 0;
+    text-align: center;
+    gap: 20px;
+}
+
+.logos {
+    height: 50px;
+    margin: 35px;
+}
