@@ -1,5 +1,8 @@
 a {
     text-decoration: none;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .menu {
@@ -14,7 +17,7 @@ a {
 }
 
 .title {
-    color: saddlebrown;
+    color: #222222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
