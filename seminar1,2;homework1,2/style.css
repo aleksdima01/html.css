@@ -92,7 +92,7 @@ p::first-letter {
 }
 
 p::first-line {
-    color(88, 4, 4);
+    color: rgb(88, 4, 4);
     text-decoration: underline;
     font-weight: bold;
     font-size: 20px;
