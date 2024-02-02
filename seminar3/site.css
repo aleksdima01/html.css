@@ -10,6 +10,9 @@ body {
     max-width: 1600px;
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .header {
@@ -31,17 +34,22 @@ a {
 }
 
 .top__content {
-    text-align: center;
-    text-align: center;
-    writing-mode: vertical-lr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 0px 40px;
+    flex-wrap: wrap;
 }
 
 .left_top_container {
-    width: 50%;
-    writing-mode: horizontal-tb;
-    text-align: left;
-    padding: 20px;
-    margin: 20px 0;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+
 }
 
 .text_top {
@@ -64,7 +72,7 @@ a {
     font-weight: 800;
     line-height: 130%;
     /* 71.5px */
-    margin-bottom: 30px;
+
 }
 
 .text_bottom {
@@ -75,12 +83,12 @@ a {
     font-weight: 600;
     line-height: 160%;
     /* 28.8px */
+    margin: 40px 0px;
     margin-bottom: 30px;
 }
 
 .buttons__container {
     justify-content: start;
-    align-items: start;
     display: flex;
     flex-wrap: wrap;
 }
@@ -109,17 +117,25 @@ a {
 }
 
 .rocketman_container {
-    width: 50%;
-    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    width: 35%;
 }
 
 .logo_container {
+    display: flex;
+    justify-content: space-between;
     flex-shrink: 0;
-    text-align: center;
     gap: 20px;
 }
 
 .logos {
+
     height: 50px;
     margin: 35px;
+}
+
+.rocket_img {
+    display: flex;
+    width: 90%;
 }
