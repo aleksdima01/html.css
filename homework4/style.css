@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #FFF;
+}
+
+body {
+    margin: 0px 373px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 40px 0px 84px 0px;
+    gap: 460px;
+
+}
+
+.left_header {
+    width: 137px;
+    height: 40px;
+}
+
+.right_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 37px;
+
+
+}
+
+.all__center__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 73px;
+    flex-wrap: nowrap;
+}
+
+.right__center__block {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left__center__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.first_letter {
+    color: rgba(242, 88, 34, 1);
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.h1 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.h5 {
+    color: rgb(136, 136, 136);
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.buttons__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.left_text_button {
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    width: 140px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.right_text_button {
+    width: 90px;
+    border-style: none;
+    height: 19px;
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    text-align: left;
+    background: none;
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 48px;
+}
+
+.logos {
+    width: 160px;
+    height: 50px;
+}
