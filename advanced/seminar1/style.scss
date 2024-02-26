@@ -1,0 +1,51 @@
+@import 'vars';
+
+@mixin center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+%font-style {
+    font-family: sans-serif;
+    font-style: normal;
+    background-color: aqua;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+// Выделение последнего слова
+
+.last_word {
+    color: $site_сolor;
+}
+
+.nav {
+    display: flex;
+    gap: $site_gap;
+
+    &__link {
+        text-decoration: none;
+        @extend %font-style;
+    }
+}
+
+.content {
+    // display: flex;
+    gap: $site_gap;
+    @include center;
+
+
+    &__item {
+        width: calc($site_width/4);
+        height: 200px;
+        border: $standart_border;
+    }
+}
