@@ -433,21 +433,37 @@
                 <label class="size__checkbox" for="XXL">XXL</label>
             </div>
             <div class="price">
-                <label class="price__label" for="tempB">Price</label><br />
-                <input type="range" id="tempB" name="temp" list="values" />
-
+                <h2 class="trending-now__h2">Price</h2>
+                <input type="range" id="tempB" name="temp" list="values">
                 <datalist id="values">
                     <option value="0" label="$52"></option>
                     <option value="100" label="$400"></option>
                 </datalist>
             </div>
         </nav>
-        <section>
+        <nav class="select">
+            <p class="sort-by">Sort By</p>
+            <select class="form-select" aria-label="Default select example">
+                <option class="value" selected>Name</option>
+                <option class="value" value="1">Price</option>
+                <option class="value" value="2">Popularity</option>
+                <option class="value" value="3">Novelty</option>
+            </select>
+            <p class="sort-by">Show</p>
+            <select class="form-select form-select_show" aria-label="Default select example">
+                <option class="value" value="0">06</option>
+                <option class="value" value="1" selected>09</option>
+                <option class="value" value="2">12</option>
+                <option class="value" value="3">15</option>
+                <option class="value" value="4">18</option>
+                <option class="value" value="5">21</option>
+            </select>
+        </nav>
+        <section class="cards">
             <div class="cards-section">
-
                 <div class="item-box">
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/1-card.png" alt="item">
                             </div>
@@ -472,7 +488,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/2-card.png" alt="item">
                             </div>
@@ -497,7 +513,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/3-card.png" alt="item">
                             </div>
@@ -522,7 +538,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/4-card.png" alt="item">
                             </div>
@@ -547,7 +563,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/5-card.png" alt="item">
                             </div>
@@ -572,7 +588,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/6-card.png" alt="item">
                             </div>
@@ -597,7 +613,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/7-card.png" alt="item">
                             </div>
@@ -622,7 +638,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/8-card.png" alt="item">
                             </div>
@@ -647,7 +663,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <a href="1111111" class="item-link">
+                        <a href="../homework2/single-page.html" class="item-link">
                             <div class="item-link__img">
                                 <img class="item-img" src="img/9-card.png" alt="item">
                             </div>
@@ -863,7 +879,7 @@
                         height="14" viewBox="11 11 14 14">
                         <image width="14" height="14"
                             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAANZJREFUOE/lksENwjAMRe1kAlaAFRihHOP2AiPACozACmUFTk17oyswAh0BJqg/chSQOKD2TqQoTvSffr4T7rpuqap7ALeyLC80c3CM8U5ES9Or6qaqqn4Oa+CDiBZZfBCR81xwT0Q2exE5zoFMw03TbJk5OZpbzlzYHsDTe9+r6jZHGd5RvjI651aqalCdnYe8ph4kJ+ZLCGE3Bf66+XEKfAI4eO9vAGoAKQIz91PgICIrE8cYrYGfCH8Btm17BZDeyTm3HsexYOZT7t4QQthYnT/K5/wF36uqA0UL6tYAAAAASUVORK5CYII="
-                            data-name="" transform="translate(11 11)" />
+                            data-name="1" transform="translate(11 11)" />
                     </svg>
 
                 </a>
@@ -873,7 +889,7 @@
                         height="15" viewBox="12 10 12 15">
                         <image width="12" height="15"
                             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAPCAYAAADQ4S5JAAAAAXNSR0IArs4c6QAAAUFJREFUKFOFUsFtAkEMHLuDtAAlJCXAb2/hE0pISgglcCVwJXAv9viREnIlhBJCB3Y0q110SESxtJJP9njG4xNM4ng8vorIAgAfRGQ0s361WvW1TZicTqeZmR0APAO4lsfSrAD7pmk2OS/NZwBPADpVbUMIBHHQs7vv3H0hIhkkKaU9gDcA2xhjm1L6IEOMsZuwf3GgmS0J+GFBVedmRuCufocQLsxTSt9F3pYAB3CJMc4nhTzgAaCrDJQwH4bhTL0AxhjjS3XmjqE2ufumWEpZbYxxWxc3M+6AvEO11N1bEaF+WpkNYNMwDAd3530+m6ZZ5jtM3OByDNrai8isSLyq6jKEMN4AKSVK2XMSEaWR6aiq72zOh5ssVu+R9VMqa9Wpu1+jaM0OcbH1ep1ZHsWUgfpp783O/wB7Ve2q1r8YfgEvUcSBJn9CEAAAAABJRU5ErkJggg=="
-                            data-name="" transform="translate(12 10)" />
+                            data-name="2" transform="translate(12 10)" />
                     </svg>
                 </a>
                 <a class="footer_icons"
@@ -883,7 +899,7 @@
                         height="14" viewBox="10 11 21 14">
                         <image width="21" height="14"
                             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOCAYAAADABlfOAAAAAXNSR0IArs4c6QAAAXNJREFUOE+Vk9FxwjAMhiVtwAphBDoCvCWGFxihHaEdoYzQrpAXTvgNRmhGaEYoEyD3ftfmkjT0Ut3lwbH1Wb9+mWkQ3vvZ9XpdMvMMWyJSl2V5GZ77a81503tfmNkzEW2JKAJTAFiLyL4sy3YKPEIT8ERExb0kZj5XVbWaBIVcM/voABtURkRRMjNvQwiFiKwmV6qqkPyaAHVVVbuRPhf3gN77hZk9ElHrnNtHjqp+piovIjL/rymqCuBbgs4zNIxVmRQgoRfM3KK3nbZhH16gXfjeUWmEYuGce8oEVcXtv6C5omQuVA4jQr/SCDXOuYcOFMBFJyOPGnoXZSbpqBK+YNz2ItLw8Xg8hRCWOBRC2K3Xazjfi2QGJgTT0DNztKeHw2EpIphRRBtCeOmChzNsZqvNZnPu3ooz6Gc2OQ6/qmKkICEHpCAR8pEQX9iwypF+xl+3Z5rcBrj7RG95U4E9KBapdzAE38+tzI2Z1WO9vlfpNzFtv5o0GsTEAAAAAElFTkSuQmCC"
-                            data-name="" transform="translate(10 11)" />
+                            data-name="3" transform="translate(10 11)" />
                     </svg>
                 </a>
             </div>
