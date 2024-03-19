@@ -717,6 +717,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.subscribe__div .subscribe .div_for_input .button_input_right:hover {
+  color: #ef5b70;
+  background-color: #ffffff;
+}
 
 .for_svg svg {
   position: absolute;

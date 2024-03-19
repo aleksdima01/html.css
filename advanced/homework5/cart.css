@@ -191,12 +191,18 @@ input[type=checkbox] {
   align-items: center;
   justify-self: start;
 }
+.cart-products__cards img {
+  border: 1px solid #ffffff;
+}
+.cart-products__cards img:hover {
+  border: 1px solid #ef5b70;
+}
 .cart-products__cards__text {
   display: flex;
   flex-direction: column;
   margin-left: 21px;
 }
-.cart-products__cards__h2 {
+.cart-products__cards__a {
   font-family: Lato;
   font-size: 13px;
   line-height: 1.2;
@@ -204,6 +210,9 @@ input[type=checkbox] {
   text-transform: uppercase;
   color: #222222;
   margin-bottom: 38px;
+}
+.cart-products__cards__a:hover {
+  color: #ef5b70;
 }
 .cart-products__cards__p {
   font-size: 13px;
@@ -221,6 +230,9 @@ input[type=checkbox] {
   line-height: 20px;
   font-weight: 400;
   color: #656565;
+}
+.cart-products .fa-times-circle:hover {
+  color: #ef5b70 !important;
 }
 .cart-products__input {
   width: 54px;
@@ -395,6 +407,10 @@ input[type=checkbox] {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
+}
+.proceed__checkout__total__a:hover {
+  color: #ef5b70;
+  background-color: #ffffff;
 }
 
 .required_field {
@@ -776,8 +792,8 @@ input[type=checkbox]:checked ~ .left-menu__box {
   justify-content: center;
 }
 .subscribe__div .subscribe .div_for_input .button_input_right:hover {
-  opacity: 70%;
-  box-shadow: 0 0 2px 0 #5c0101;
+  color: #ef5b70;
+  background-color: #ffffff;
 }
 
 .for_svg svg {

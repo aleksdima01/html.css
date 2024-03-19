@@ -712,8 +712,8 @@ input[type=checkbox]:checked ~ .left-menu__box {
   justify-content: center;
 }
 .subscribe__div .subscribe .div_for_input .button_input_right:hover {
-  opacity: 70%;
-  box-shadow: 0 0 2px 0 #5c0101;
+  color: #ef5b70;
+  background-color: #ffffff;
 }
 
 .for_svg svg {

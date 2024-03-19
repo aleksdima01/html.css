@@ -822,6 +822,11 @@ body {
                 line-height: 17px;
                 align-items: center;
                 justify-content: center;
+
+                &:hover {
+                    color: #ef5b70;
+                    background-color: #ffffff;
+                }
             }
         }
     }
