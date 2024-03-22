@@ -230,7 +230,7 @@ input[type="checkbox"]:checked~.top-menu__box {
 
 .right-header-block {
     display: flex;
-    gap: 33px;
+    gap: 13px;
     margin-right: 231px;
     align-items: center;
 
@@ -248,7 +248,157 @@ input[type="checkbox"]:checked~.top-menu__box {
         border-radius: 3px;
     }
 
+    .cart-menu {
+        position: relative;
+        list-style-type: none;
+        padding: 20px;
+        z-index: 5;
+
+
+        &__mega-box {
+            width: 262px;
+            height: 415px;
+            padding: 17px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            border: 1px solid #e8e8e8;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 65px;
+            left: 0;
+            right: auto;
+            align-items: center;
+
+            &__h2 {
+                font-family: Lato;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #222222;
+                margin-bottom: 32px;
+
+                & span {
+                    font-family: Lato;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #222222;
+                    margin-left: 140px;
+                }
+            }
+
+            &__a {
+                width: 225px;
+                height: 50px;
+                border: 1px solid #f16d7f;
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #f16d7f;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &_cart {
+                    font-family: Lato;
+                    font-size: 14px;
+                    line-height: 1.2;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #4a4a4a;
+                    background-color: #ffffff;
+                    border: 1px solid #eaeaea;
+                    margin-top: 11px;
+                }
+
+                &:hover {
+                    background-color: #ef5b70;
+                    color: #ffffff;
+                }
+
+            }
+        }
+
+        &__menu-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            &__img {
+                border: 1px solid #ffffff;
+
+                &:hover {
+                    border: 1px solid #ef5b70;
+                }
+            }
+
+            &__text-a {
+                &:hover h3 {
+                    color: #ef5b70;
+                }
+            }
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 10px;
+            }
+
+            &__h3 {
+                font-family: Lato;
+                font-size: 12px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #222222;
+            }
+
+            &__p {
+                font-family: Lato;
+                font-size: 12px;
+                line-height: 1.2;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #f16d7f;
+
+                & span {
+                    font-family: Lato;
+                    line-height: 1.2;
+                    font-weight: 400;
+
+                    color: #f16d7f;
+                    font-size: 10px;
+                }
+            }
+
+            &__border {
+                width: 229px;
+                height: 1px;
+                background-color: rgba(237, 237, 237, 0.74);
+                margin: 16px 0;
+            }
+
+            .fa-times-circle:hover {
+                color: #ef5b70 !important;
+            }
+        }
+
+
+    }
+
+    .cart-menu:hover .cart-menu__mega-box {
+        display: flex;
+    }
+
 }
+
+
 
 .right-header-block path {
     fill: #222222;
